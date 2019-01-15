@@ -25,4 +25,18 @@ $(document).ready(function() {
     $("#enoki-hidden").fadeToggle();
   });
 
+
+  $("button#geo").click(function() {
+    $("body").removeClass();
+    $("body").addClass("georgia-text");
+  });
+  $("button#cour").click(function() {
+    $("body").removeClass();
+    $("body").addClass("courier-text");
+  });
+  $("button#luci").click(function() {
+    $("body").removeClass();
+    $("body").addClass("lucida-text");
+  });
+
 });

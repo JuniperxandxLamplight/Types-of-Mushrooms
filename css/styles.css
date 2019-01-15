@@ -34,3 +34,13 @@ p{
 #enoki-showing{
   display: none;
 }
+
+.georgia-text{
+  font-family: "georgia";
+}
+.courier-text{
+  font-family: "courier new";
+}
+.lucida-text{
+  font-family: "lucida console";
+}
